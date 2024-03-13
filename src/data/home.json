@@ -1,0 +1,33 @@
+[
+    {
+        "slider": [
+            {
+                "id": 1,
+                "backgroundImage": "/img/hero-slider/Heaven.JPG",
+                "title": "Heaven on Earth",
+                "subTitle": "inspire 2026",
+                "desc": "Il y a toujours un chemin",
+                "buttonText": "Explore now"
+            },
+            {
+                "id": 2,
+                "backgroundImage": "/img/hero-slider/Ciel_Rose.JPG",
+                "title": "Ciel Rose",
+                "subTitle": "inspire 2026",
+                "desc": "The Sky Is Pink",
+                "buttonText": "Explore now"
+            },
+            {
+                "id": 3,
+                "backgroundImage": "/img/hero-slider/The_Crash.JPG",
+                "title": "The Crash",
+                "subTitle": "inspire 2026",
+                "desc": "Three Sisters, Scotland",
+                "buttonText": "Explore now"
+            }
+        ]
+    },
+    {
+        "qute": ""
+    }
+]
