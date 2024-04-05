@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import "lightgallery.js/dist/css/lightgallery.css";
 import { useEffect } from "react";
 import "react-modal-video/scss/modal-video.scss";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/swiper.scss";
 import "./assets/css/animate.css";
@@ -18,12 +18,6 @@ import Blog from "./pages/blog";
 import Contact from "./pages/contact";
 import HomePage from "./pages/index";
 import Portfolio from "./pages/portfolio";
-import VideoGallery from "./pages/video-gallery";
-import BlogAuthor from "./templates/blog-author";
-import BlogCategory from "./templates/blog-category";
-import BlogDate from "./templates/blog-date";
-import BlogDetails from "./templates/blog-details";
-import BlogTag from "./templates/blog-tag";
 import PortfolioDetails from "./templates/portfolio-details";
 
 const App = () => {
@@ -54,10 +48,6 @@ const App = () => {
                         component={Portfolio}
                     />
                     <Route
-                        path={`${process.env.PUBLIC_URL + "/video-gallery"}`}
-                        component={VideoGallery}
-                    />
-                    <Route
                         path={`${
                             process.env.PUBLIC_URL + "/portfolio-details/:id"
                         }`}
@@ -66,26 +56,6 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/blog"}`}
                         component={Blog}
-                    />
-                    <Route
-                        path={`${process.env.PUBLIC_URL + "/category/:slug"}`}
-                        component={BlogCategory}
-                    />
-                    <Route
-                        path={`${process.env.PUBLIC_URL + "/tag/:slug"}`}
-                        component={BlogTag}
-                    />
-                    <Route
-                        path={`${process.env.PUBLIC_URL + "/date/:date"}`}
-                        component={BlogDate}
-                    />
-                    <Route
-                        path={`${process.env.PUBLIC_URL + "/author/:author"}`}
-                        component={BlogAuthor}
-                    />
-                    <Route
-                        path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`}
-                        component={BlogDetails}
                     />
                     <Route
                         path={`${process.env.PUBLIC_URL + "/contact"}`}

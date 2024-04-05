@@ -101,54 +101,10 @@ const HamburgerMenu = ({ show, onClose }) => {
                                 </li>
                                 <li>
                                     <NavLink
-                                        to={
-                                            process.env.PUBLIC_URL +
-                                            "/video-gallery"
-                                        }
-                                    >
-                                        Video Gallery
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink
                                         to={process.env.PUBLIC_URL + "/contact"}
                                     >
                                         Contact
                                     </NavLink>
-                                </li>
-                                <li className="dropdown-submenu">
-                                    <NavLink
-                                        to={process.env.PUBLIC_URL + "/blog"}
-                                    >
-                                        <span>Blog</span>
-                                    </NavLink>
-                                    <span
-                                        className="menu-toggle"
-                                        onClick={onClickHandler}
-                                        aria-hidden="true"
-                                    ></span>
-                                    <ul className="dropdown-nav">
-                                        <li>
-                                            <NavLink
-                                                to={
-                                                    process.env.PUBLIC_URL +
-                                                    "/blog"
-                                                }
-                                            >
-                                                Blog Grid
-                                            </NavLink>
-                                        </li>
-                                        <li>
-                                            <NavLink
-                                                to={
-                                                    process.env.PUBLIC_URL +
-                                                    "/blog-details/1"
-                                                }
-                                            >
-                                                Blog Details
-                                            </NavLink>
-                                        </li>
-                                    </ul>
                                 </li>
                             </ul>
                         </div>

@@ -54,7 +54,6 @@ const Footer = () => {
                                 </div>
                                 <div className="widget-copyright">
                                     <p>
-                                        © 2021 <span>Alexis</span>. Made with{" "}
                                         <i className="icofont-heart-alt"></i> by{" "}
                                         <a
                                             target="_blank"

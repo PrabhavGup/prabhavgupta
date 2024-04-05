@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
 import PageTitleContainerTwo from "../containers/global/page-title-two";
@@ -11,7 +11,7 @@ const VideoGallery = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Alexis || Video Gallery" />
+                <SEO title="Prabhav || Video Gallery" />
                 <div className="wrapper home-default-wrapper">
                     <Header classOption="hb-border" />
                     <div className="main-content">
@@ -30,3 +30,4 @@ const VideoGallery = () => {
 };
 
 export default VideoGallery;
+*/

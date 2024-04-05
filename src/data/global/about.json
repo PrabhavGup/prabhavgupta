@@ -1,17 +1,17 @@
 [
     {
         "id": "about me",
-        "title": "Say Hello From Alexis !",
+        "title": "Say Hello From Prabhav !",
         "excerpt": "We are a fairly small, flexible design studio that designs for print and web. <br>Alexis works flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing and a beautiful and functional website or whether you are looking for a great experience."
     },
     {
         "id": "about service",
-        "title": "Our Services",
+        "title": "Skills",
         "pagelinkText": [
-            "Branding & Strategy",
             "Web Design & Development",
-            "Packaging Design",
-            "Video & Animation",
+            "Team Management",
+            "Business Analyst",
+            "Time & Energy Management",
             "Marketing, SEO & Social Media"
         ]
     },

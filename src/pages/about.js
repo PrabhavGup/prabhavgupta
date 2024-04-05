@@ -1,12 +1,10 @@
 import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
-import AboutAward from "../containers/about/about-award";
 import AboutService from "../containers/about/about-service/index.jsx";
 import Blockquote from "../containers/about/blockquote";
 import AboutGallery from "../containers/about/gallery";
 import TeamContainer from "../containers/about/team";
-import BrandContainer from "../containers/global/brand";
 import PageTitleContainer from "../containers/global/page-title";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
@@ -16,7 +14,7 @@ const AboutPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Alexis || About" />
+                <SEO title="Prabhav || About" />
                 <div className="wrapper about-page-wrapper">
                     <Header classOption="hb-border" />
                     <div className="main-content">
@@ -25,8 +23,8 @@ const AboutPage = () => {
                         <TeamContainer />
                         <Blockquote />
                         <AboutGallery />
-                        <AboutAward />
-                        <BrandContainer />
+                        {/*<AboutAward />*/}
+                        {/*<BrandContainer />*/}
                     </div>
                     <Footer />
                     <ScrollToTop />
